@@ -34,7 +34,7 @@ public class EnemyController : MonoBehaviour
         transform.position += new Vector3(0.0f,speed * direction * Time.deltaTime, 0.0f);
     }
     /// <summary>
-    /// checks if the enemy is going out of the boundary
+    /// checks if the enemy is going out of the boundaries
     /// </summary>
     private void _CheckBounds()
     {
